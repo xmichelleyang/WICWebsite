@@ -1,0 +1,46 @@
+#gdoheader {
+	margin: 0 auto;
+}
+
+#gdoheader td {
+	height: 100px;
+	padding: 10px;
+	vertical-align:middle;
+}
+
+#gdoheader td h3 {
+	text-transform: none;
+}
+
+.page_nav {
+	margin: 0 auto 1em;
+	table-layout:fixed;
+	width: 550px;
+} 
+
+.page_nav td {
+	text-align:center;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	padding: .6em .9em;
+}
+
+.page_nav td a:link, .page_nav td a:visited { color: #834eaa; }
+.page_nav td a:hover { color: #fff; }
+
+#gdo_about img {
+	float:left;
+}
+
+#gdo_about .text {
+	float:left;
+	padding: 2em;
+	width: 500px;
+}
+#gdo_about, #gdo_sponsors, #gdo_contact {
+	margin: 40px 0;
+}
+
+#gdo_sponsors h1, #gdo_contact h1 {
+	border-bottom: 2px dotted #333;
+}

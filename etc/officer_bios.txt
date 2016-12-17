@@ -1,0 +1,33 @@
+OFFICER BIOS
+
+Eliah Overbey
+Eliah is a second year Computer Engineering major. Her interest in science fiction and artificial intelligence started her passion for computing. She strongly believes that computer science and engineering is the field from which the world of tomorrow will emerge and is proud to help computer scientists and engineers through WIC. When Eliah isn't busy with programming assignments, she enjoys reading, working out, and watching Game of Thrones.
+
+
+
+ 
+
+Mishika Vora
+Mishika Vora is the current Outreach Officer for Women in Computing. She's a third year majoring in Computer Science and Management Science and is passionate about getting women interested in Computer Science at an early age through outreach! Her career interests include e-commerce and technology-related humanitarian projects. Her hobbies include yoga, photography, running and reading. 
+
+Arshi Ansari
+Arshi Ansari is a third year undergraduate Computer Science student at UCSD. She enjoys CS because she loves to learn how things work under the hood. Her favorite part of software development is testing and debugging. After attaining her Bachelor's degree, she hopes to pursue her education further by either getting her Master's in Computer Science or Business. Outside of school, Arshi enjoys photography, reading and cooking.
+
+arshi.ansari91 [AT] gmail [DOT] com
+
+Kylie Taitano
+Kylie Taitano is currently a second year undergraduate student at UCSD studying Computer Science. Originally attracted to Computer Science because of video game design, she quickly discovered how versatile the field is and is interested in software testing. When she's not down at the computer labs, you can find her playing video games, cooking or baking, or at the gym! 
+
+
+Sneha Datla
+Sneha is a third year Computer Science major. It was really by chance that she took an introductory programming course as a freshman and ever since then she has been hooked. WIC provided her with a means to explore this passion further and she is extremely grateful for that. When not facing the computer, she enjoys art, reading, sightseeing, and hanging out. 
+
+Roshni Chandrashekhar
+Roshni is a Masters student at UC San Diego, currently pursuing research in power variations in embedded systems, with a strong inclination towards distributed systems work. An Indian by birth and at heart, she loves the opportunity to integrate and assimilate cultures half-way across the globe. While she's not cooped up in a lab engaged in computer science, she's teaching writing to freshmen at Culture, Art and Technology, with themes varying from biomedical ethics to climate change, or relaxing with chai with her friends. 
+
+Qing Zhang
+I am PhD student in the Systems and Networking Group at UC San Diego. I am advised by my awesome advisor Geoff Voelker. Currently I am working on security and privacy related projects to detect malicious behavior on the Internet. This includes looking at clickfraud and article spam. Previously, I worked on a project, NEON, that uses VMM(XEN) to provide fined grained data management within a protected network. Prior to Neon, I worked on a data confinement system called Glavlit. I am the grad VP for WIC at UCSD and we try to host various events to encourage and support women in Computing. In my free time I enjoy surfing, cooking and video games.
+
+
+Elizabeth Bales
+Elizabeth Bales is a sixth year PhD student at UCSD studying Ubicomp and HCI. Her current project explores how mobile air quality sensors can impact how people interact with and think about their environments. Elizabeth did her undergraduate work in Computer Engineering at University of Washington where in addition to her studies she also TAed the Women in Computing Seminar and participated in the ACM-W. Upon coming to UCSD she was interested in getting a similar group started and became the first President of WIC in 2007. Outside of school she enjoys dancing, hanging out with her husband Nathan, and going to Disneyland. 
