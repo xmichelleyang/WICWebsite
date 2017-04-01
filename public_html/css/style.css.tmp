@@ -55,9 +55,7 @@ footer, header, hgroup, menu, nav, section {
 .fr { float: right; }
 .center { text-align:center; }
 .noline, .noline a { text-decoration:none; }
-.hoverline:hover, .hoverline a:hover {
-  color: white!important;
-}
+.hoverline:hover, .hoverline a:hover { text-decoration:underline; }
 
 /** COLOR SCHEMES **/
 
@@ -99,58 +97,41 @@ html, body {
 	background: #0c0b0c;
 	color: #999;
 	line-height:150%;
+
 }
 
 
 h1, h2, h3, h4 {
-  font-family: "Raleway", "Abel";
-  color: white !important;
+  font-family: 'Raleway', "Arial" sans-serif;
+
 }
+
 h1 {
   font-size: 2em;
   text-transform:
   uppercase;
   color: #eee;
   margin: 1em 0 .5em;
-
-}
-h2 {
-  font-size: 1.5em;
-  text-transform: uppercase;
-  margin-bottom: .5em;
+  font-weight: 800 !important;
+  color: white !important;
 }
 
-h3 {
-  font-size: 1.25em;
-}
-
-h4 {
-  font-size: 1em;
-}
-p {
-  margin: 1em 0;
-  font-family: "Open Sans", sans-serif;
-}
-a {
-  color: #b58fac;
-}
-
-a:visited {
- color: #b58fac;
-}
-
-a:hover {
- color: white;
-}
+h2 { font-size: 1.5em; text-transform: uppercase; margin-bottom: .5em; }
+h3 { font-size: 1.25em; }
+h4 { font-size: 1em; }
+p { margin: 1em 0; }
+a {	color: #b58fac; }
+a:visited { color: #b58fac; }
+a:hover { color: #fff; }
 
 
 #header_wrap {
 	width:100%;
-	background: #171317;
+	background: white;
 }
 
 #header{
-	font-family: "Open Sans", sans-serif;
+	font-family: "Abel";
 	margin: 0 auto;
 	height: 200px;
 	width:960px;
@@ -209,21 +190,24 @@ footer .icon {
 }
 
 #mainnav li a#currpage {
-	color: #834eaa;
-  font-weight: bold;
+	color: #fff;
 }
 
 #mainnav li a:hover {
-	color:#834eaa;
+	color:#fff;
+	border-top: 10px solid #834eaa;
+	border-bottom: 10px solid #834eaa;
 	margin-top: -10px;
 }
 
+/**
 #main {
 	margin: -15px auto 0;
 	width:960px;
  	padding: 1.5em 2em;
+  display: inline;
 }
-
+**/
 
 
 
@@ -275,15 +259,6 @@ footer .icon {
 
 /* ABOUT PAGE */
 
-.aboutbox h3 {
-  font-family: "Raleway";
-
-}
-.aboutbox p {
-  font-family: "Open Sans";
-  color: white!important;
-
-}
 
 #officer_nav {
 	margin-bottom: 1em;
@@ -305,15 +280,16 @@ footer .icon {
 .box {
 	padding: 1em;
 	margin: .5em;
-	height: 620px;
+	height: 400px;
 }
 .aboutbox{
 	padding: 1em;
 	margin: .5em;
-	height: 660px;
+	height: 600px;
 }
 
 .infobox {
+  width: 625px;
 	padding: 1em;
 	background:#222222;
 	color:#eee;
@@ -355,8 +331,9 @@ footer .icon {
 	display:block;
 }
 
-#prev_officers h2, h3{
-	color: #834eaa !important;
+#prev_officers .infobox img {
+	width: 50px;
+	height: 50px;
 }
 
 #prev_officers .infobox h3.year {
@@ -463,12 +440,14 @@ td.date, td.location {
 	color:#BAA9C7;
 }
 
-#events-main, #officer-column {
+
+#events-main, {
 	position: relative;
 	width: 675px;
 	margin-left: 20px;
 	float: left;
 }
+
 
 #eventgallery {
 	z-index: 10;
@@ -488,6 +467,68 @@ td.date, td.location {
 }
 
 
+#about-wrapper{
+
+  border: 15px solid blue;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 20%;
+}
+
+/* My new stuff */
+#genwrapper{
+  padding-top: 100px;
+  border: 10px solid blue;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  background-color: #171317;
+}
+
+
+#about-column {
+  display: left;
+  border: 10px solid red;
+  width: 20%;
+  height: 900px;
+}
+
+#officer-column{
+  border: 10px solid red;
+  margin-left: 30px;
+  width: 50%;
+}
+
+.about_photo {
+  display: left;
+}
+.about_text {
+  border: 5px solid red;
+}
+.infobox {
+  display: flex;
+  justify-content: center;
+
+}
+
+#prev_officers .infobox {
+
+  flex-direction: column;
+}
+#prev_officers .infobox .list {
+
+  display: flex;
+  flex-wrap: wrap;
+  border: 4px solid blue;
+}
+
+#prev_officers .infobox .list .about_text {
+  width: 43%;
+  flex-wrap: wrap;
+}
+/*
 #about-column ul {
 	padding: 0;
 	margin: 0;
@@ -506,7 +547,34 @@ td.date, td.location {
  	margin-bottom: 2px;
  	border-bottom: 1px solid #3D2D4A;
  }
+ */
 
+
+.navbar {
+  height: 20px !important;
+  background-color: white !important;
+  border-color: white !important;
+}
+
+.navbar-font {
+  font-family: 'Source Code Pro', monospace !important;
+}
+.navbar a {
+  font-family: 'Open Sans', sans-serif;
+  color: #42484F !important;
+}
+.navbar a:hover {
+  color: #7A1EA1 !important;
+}
+
+.navbar-collapse {
+  width: 70% !important;
+}
+
+.topnav {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+}
 .events-nav-selected {
 	color: #fff;
 }
@@ -676,55 +744,4 @@ tr.selected h4 {
 
 .pagination li.current a {
 	background-position:0 -12px;
-}
-
-
-
-.navbar {
-  height: 20px !important;
-  background-color: white !important;
-  border-color: white !important;
-  color: white !important;
-
-}
-
-.navbar-font {
-  font-family: 'Open Sans', monospace !important;
-  color: white !important;
-}
-.navbar a {
-  font-family: 'Open Sans', sans-serif;
-  color: white !important;
-}
-.navbar a:hover {
-  color: #7A1EA1 !important;
-}
-
-.navbar-collapse {
-  width: 70% !important;
-}
-
-.topnav {
-  display: flex;
-  justify-content: center; /* Centers horizontally */
-}
-
-
-/** Highlight
-/*** Works on common browsers ***/
-::selection {
-    background-color: #834eaa;
-    color: #fff;
-}
-
-/*** Mozilla based browsers ***/
-::-moz-selection {
-    background-color: #834eaa;
-    color: #fff;
-}
-
-/***For Other Browsers ***/
-::-o-selection {
-    background-color: #834eaa;
-    color: #fff;
 }
