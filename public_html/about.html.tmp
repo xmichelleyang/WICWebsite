@@ -1,0 +1,360 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+	<title>WIC: Women in Computing at UCSD</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+
+  <link rel="stylesheet" href="css/boilerplate.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href='http://fonts.googleapis.com/css?family=Abel|Roboto:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway:900|Roboto|Source+Code+Pro');
+  </style>
+  <script src="js/libs/modernizr-2.5.3.min.js"></script>
+
+
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+      <div class="container topnav" >
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand topnav navbar-font navbar-topleft" href="index.html">wic_</a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right navbar-font">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" id="currpage">About Us</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="sponsors.html">Sponsors</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container -->
+  </nav>
+
+</head>
+
+
+<body>
+
+
+  <!-- Left Column -->
+  <div id="genwrapper">
+    <div id="about-column">
+      <h1 style="text-align:center">What does WIC do?</h1>
+        <div class="aboutbox">
+          <ul>
+          <li>
+            <h3>Hold technical events</h3>
+            <p>We bring in industry professionals to hold tech talks and workshops, including all-female engineer panels. Bring your resumes!</p>
+          </li><li>
+            <h3>Get you into Grad School</h3>
+            <p>Our grad WIC members hold seminars on getting you into the program you want.</p>
+          </li><li>
+            <h3>Attend Conferences</h3>
+            <p>WIC attends regional and national conferences for women in computing, like Grace Hopper, CWIC and init(together).</p>
+          </li><li>
+            <h3>Programming Competitions</h3>
+            <p>We hold a beginner's programming competition every quarter, restricted to students who have yet to take upper division classes.
+            <a href="events.html#competition.html">More info</a></p>
+          </li>
+          </ul>
+        </div>
+    </div>
+
+
+
+    <!-- Right Column -->
+    <div id="officer-column">
+      <div id="officer_nav" class="noline c_grey">
+        <a href="#ug_officers">&#8675; Undergraduate Officers</a>
+        <a href="#prev_officers">&#8675; Previous Officers</a>
+      </div>
+      <div id="ug_officers">
+        <h1>Undergraduate Officers</h1>
+
+        <div class="infobox r10 cf">
+          <div class="about_photo"><img src="img/people/Lucy.jpg" alt="Lucy Chian"/></div>
+          <div class="about_text">
+            <h3> President </h3>
+            <h4> Lucy Chian </h4>
+            <p>
+              Lucy is a fourth-year majoring in Computer Science with a specialization
+              in bioinformatics. Since she joined in her first year, WIC has given her
+              invaluable opportunities within the CS community and has proved to be a
+              fantastic support group. Outside of CS, Lucy plays soccer and enjoys
+              cooking/eating, photography, and the outdoors. She recently returned
+              from studying abroad in Copenhagen.
+            </p>
+          </div>
+        </div>
+
+        <div class="infobox r10 cf">
+          <div class="about_photo"><img src="img/people/Jessica.jpg" alt="Jessica Yang"/></div>
+          <div class="about_text">
+            <h3>Vice President</h3>
+            <h4> Jessica Yang </h4>
+            <p>
+              Jessica is a fourth-year Computer Science major.  Her passion in
+              computer science stems from the unlimited applications of programming
+              to different areas of interests. When she first joined WIC freshman year,
+              she was simply looking for a community to be a part of; she ended up
+              staying because of the people she's met along the way and because she
+              became increasingly passionate about the cause. Outside of programming,
+              Jessica likes to watch TV shows, play video games, try new foods, and crochet.
+            </p>
+          </div>
+        </div>
+
+        <div class="infobox r10 cf">
+          <div class="about_photo"><img src="img/people/Shreya.jpg" alt="Shreya Malik"/></div>
+          <div class="about_text">
+            <h3> Treasurer </h3>
+            <h4> Shreya Malik </h4>
+            <p>
+              Shreya is a fourth year bioinformatics major minoring in business. She has experience
+              in performing algorithmic quantitative analysis in the molecular engineering lab at
+              UCSD and has successfully completed several summer internships at companies of various
+              sizes. Her academic pursuits place her at the most innovative crossroads between
+              computer science, biotechnology, and consulting. She hopes to use these experiences to
+              further WiC's goals by inspiring growth, networking opportunities, and overall learning
+              through her contributions as treasurer for the 2016-17 academic year. She's always
+              willing to answer questions, so feel free to approach her with anything!
+            </p>
+          </div>
+        </div>
+
+        <div class="infobox r10 cf">
+          <div class="about_photo"><img src="img/people/Keyue.jpg" alt="Keyue Bao"/></div>
+          <div class="about_text">
+            <h3> Secretary </h3>
+            <h4> Keyue Bao </h4>
+            <p> Keyue is currently a third year pursuing computer science at UCSD, she is currently a
+              tutor for CSE 12, 15L and 110 with Prof. Gillespie. Her passion for CS started from her
+              father, who was a hardware engineer. Aside from technology, she enjoys cooking/baking.
+            </p>
+          </div>
+        </div>
+
+        <div class="infobox r10 cf">
+        <div class="about_photo"><img src="img/people/Christina.jpg" alt="Christina Cook"/></div>
+        <div class="about_text">
+          <h3> Professional Development Co-Chair </h3>
+          <h4> Christina Cook</h4>
+          <p> Christina is a third year Cognitive Science major. She joined WIC
+            because she is also interested in learning from women in Computer
+            Science. Currently, Christina is interested in UX Design, front-end
+            and her hobbies include sitting side ways and Netflixing, swimming,
+            yoga, running, and design.  </p>
+        </div>
+      </div>
+
+        <div class="infobox r10 cf">
+        <div class="about_photo"><img src="img/people/Erin.jpg" alt="Erin Cole"/></div>
+        <div class="about_text">
+          <h3> Professional Development Co-Chair </h3>
+          <h4> Erin Cole</h4>
+          <p>Erin is a third year transfer student studying Computer Science, with a minor in math
+             (math is fun!).  She struggled in the beginning to find her way in the CS community,
+              and since joining WIC has committed to helping others also find their way.  She
+              enjoys ballet, yoga, and the San Diego craft beer scene. </p>
+        </div>
+      </div>
+
+        <div class="infobox r10 cf">
+        <div class="about_photo"><img src="img/people/Qiqi.jpg" alt="Qiqi Wu" /></div>
+        <div class="about_text">
+          <h3> Technical Skills Co-Chair </h3>
+          <h4> Qiqi Wu</h4>
+          <p>
+            Qiqi is a third-year Computer Science Major. She was initially dawn
+            to the major because of her interest in technology, and the infinite
+            possibilities that a computer can offer. She joined WiC because she
+            wanted to meet other members who share the same passion in the field.
+            Her goal is to empower other students to succeed and to encourage
+            inclusion in computing. When she is not stuck in the lab, Qiqi enjoys
+            watching movies, reading, shopping, and going to the beach.
+          </p>
+        </div>
+      </div>
+
+        <div class="infobox r10 cf">
+      <div class="about_photo"><img src="img/people/Jace.jpg" alt="Jace Chan" /></div>
+      <div class="about_text">
+        <h3> Technical Skills Co-Chair </h3>
+        <h4> Jace Chan</h4>
+        <p>Jace is a third-year undergraduate computer science student at UC San Diego.
+          He supports the presence of women in computing and encourages conversations
+          that explore the intersection of privilege, identity, and technology.
+          He believes all women deserve an equal opportunity to succeed, and
+          joined WIC in order to amplify the voices of women in the computational
+          sciences. In addition to his enthusiasm for outreach, he believes in
+          leveraging the power of technology for social good.</p>
+      </div>
+    </div>
+
+        <div class="infobox r10 cf">
+      <div class="about_photo"><img src="img/people/Vrushali.jpg" alt="Vrushali Samant"/></div>
+      <div class="about_text">
+        <h3> Outreach Chair </h3>
+        <h4> Vrushali Samant </h4>
+        <p>Vrushali is a third-year undergraduate computer science major at UC San Diego. She
+           took an interest in computer science thanks to a programming class in her high school,
+           and hopes to encourage other high school girls to develop a passion for the subject by
+           reaching out to them through various events hosted at UCSD. She joined WIC to connect
+           with other people with similar interests and to become a part of the incredible CS
+           community, and so part of her other time is spent in bringing together students
+           interested in CS through socials and other fun activities. Outside of CS, she loves
+           reading, sketching, and eating! </p>
+      </div>
+    </div>
+
+        <div class="infobox r10 cf">
+      <div class="about_photo"><img src="img/people/Vivian.jpg" alt="Vivian Zhang"/></div>
+      <div class="about_text">
+        <h3> Programming Competition Chair </h3>
+        <h4> Vivian Zhang </h4>
+        <p> Vivian is a third-year Computer Science Major at UCSD. Her first taste of Computer
+          Science was by pure chance, having selected a high school CS elective on a whim. From
+          there, she was hooked on the logic and problem solving skills associated with the
+          field. Outside of CS and programming, she enjoys drawing and being a huge foodie.
+        </p>
+      </div>
+    </div>
+
+        <div class="infobox r10 cf">
+          <div class="about_photo"><img src="img/people/Michelle.jpg" alt="Michelle Yang"/></div>
+          <div class="about_text">
+            <h3> Webmaster </h3>
+            <h4> Michelle Yang </h4>
+            <p> Michelle is a second-year Computer Engineering student who fell in love
+            with computers at a young age. As a Marshallite, Michelle is passionate about
+            feminist issues, especially the lack of women in STEM. Consequently, Michelle brings
+            a computer and pepper-spray everywhere she goes, ready to smash the glass ceiling.
+            A hard worker, Michelle loves to surround herself with fellow strong individuals
+            and found Women in Coding to be the perfect environment. In her free time,
+            Michelle likes to rock climb, hike, skateboard, film videos, take/edit photos,
+            sew, and learn new things.
+
+            </thead></p>
+          </div>
+        </div>
+
+        <div class="infobox r10 cf">
+      <div class="about_photo"><img src="img/people/Barbara.jpg" alt="Barbara He"/></div>
+      <div class="about_text">
+          <h3> Public Relations Officer </h3>
+          <h4> Barbara He </h4>
+          <p> Barbara is currently a second year Computer Science major who
+              joined WIC because she likes the supportive community and additional
+              opportunities. She likes to stay involved on campus and really enjoys
+              encouraging more girls to pursue engineering and CS. She spent this past
+              summer working as an instructor at an all-girls summer tech camp called
+              Alexa Cafe. Barbara is currently a tutor for CSE 30 and a writing tutor
+              at the UCSD Writing Hub. During her free time, she enjoys going to the beach,
+              hiking, taking Rec Classes, and catching up with friends.
+            </thead></p>
+      </div>
+    </div>
+
+        <div class="infobox r10 cf">
+      <div class="about_photo"><img src="img/people/Christopher.jpg" alt="Christopher Guan"/></div>
+      <div class="about_text">
+        <h3> Historian </h3>
+        <h4> Christopher Guan </h4>
+        <p> Christopher is a first-year Computer Engineering major. He joined
+            WIC and applied to the officer board for the chance to get to know
+            new people at UCSD, learn about clubs on campus, and to promote
+            opportunities for women. Inspired by the effect of Girls Who Code
+            on friends in high school, he hopes to spread positive change in
+            the field of computer science. Outside of CS, Chris enjoys
+            cooking and eating delicious foods, running on a track, and
+            reading.
+          </thead></p>
+        </div>
+    </div>
+      </div> <!-- Close undergrad officers -->
+
+      <div id="prev_officers">
+        <h1>Previous Officers</h1>
+
+          <div class="infobox r10 cf">
+            <h3 class="year">2015-2016</h3>
+
+              <div class="list">
+
+              <div class="about_text">
+                <h3>Undergraduate President</h3>
+                <h4>Angelique De Castro</h4>
+              </div>
+              <div class="about_text">
+                <h3>Undergraduate Vice President</h3>
+                <h4> Lucy Chian </h4>
+              </div>
+              <div class="about_text">
+                <h3>Undergraduate Treasure</h3>
+                <h4> Revan Jafar </h4>
+              </div>
+              <div class="about_text">
+                <h3>Undergraduate Secretary</h3>
+                <h4> Tiffany Truong </h4>
+              </div>
+              <div class="about_text">
+                <h3>Professional Development Co-Chair</h3>
+                <h4>Lea Lacson & Xiaohui Tong</h4>
+              </div>
+              <div class="about_text">
+                <h3>Technical Skills Chair</h3>
+                <h4> Jace Chan & Qiqi Wu</h4>
+              </div>
+              <div class="about_text">
+                <h3> Jessica Yang </h3>
+                <h4>Angelique De Castro</h4>
+              </div>
+              <div class="about_text">
+                <h3>Programming Competition Chair</h3>
+                <h4>Jessica Lin</h4>
+              </div>
+              <div class="about_text">
+                <h3>Webmaster</h3>
+                <h4> Brianna Lam </h4>
+              </div>
+              <div class="about_text">
+                <h3>Public Relations Officer</h3>
+                <h4> Keyue Bao </h4>
+              </div>
+            </div>
+          </div>
+
+      </div> <!-- Close prev_officers -->
+    </div> <!-- Close right column -->
+  </div> <!-- Close genwrapper -->
+
+  <footer>
+    <br/>Follow us: <a href="http://www.facebook.com/groups/5295569041/" target="_blank">
+      <img src="img/FB_icon.png" alt="Check out our Facebook page!" class="icon" /></a>
+      <a href="http://twitter.com/WICatUCSD" target="_blank">
+      <img src="img/Twitter_icon.png" alt="Check out our Twitter!" class="icon" /></a>
+    <br/>Contact: <a href="mailto:wic-officers@googlegroups.com">wic-officers@googlegroups.com</a> | <a href="contact.html">Feedback/Suggestions?</a>
+    <br/>Copyright &copy; Women in Computing.
+</footer>
+</body>
